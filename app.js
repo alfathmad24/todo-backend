@@ -18,6 +18,6 @@ app.use("/api/", todoRoutes);
 app.listen(
   PORT,
   console.log(
-    `Server running in ${process.env.PORT} mode on port ${PORT}`.green
+    `Server running in ${process.env.PORT} mode on port ${PORT}...`.green
   )
 );
